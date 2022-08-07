@@ -11,3 +11,6 @@ Topics covered till the creation of this repository.
 - Data types in MySQL db
 - CRUD operations (Creating new records, reading existing records, Updating records and deleting them)
 - DDL vs DML (DDL- CREATE, ALTER, DROP vs DML- UPDATE, INSERT, DELETE)
+
+### Foreign Keys
+This helps to check the validity of a values in FOREIGN KEY column whether the value is valid or not with references in another table. For instance checking whether the selected course_id is available or not in courses table.
