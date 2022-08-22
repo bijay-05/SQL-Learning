@@ -29,3 +29,11 @@ This ensures the accuracy and reliability of the data is maintained.
 - PRIMARY KEY
 - FOREIGN KEY
 - CHECK CONSTRAINT (not supported in mysql)
+
+1. The DROP command is used to remove table definition and its contents. Whereas the TRUNCATE command is used to delete all the rows from the table.
+2. In the DROP command, table space is freed from memory. While the TRUNCATE command does not free the table space from memory.
+3. DROP is a DDL(Data Definition Language) command. Whereas the TRUNCATE is also a DDL(Data Definition Language) command.
+4. In the DROP command, view of table does not exist. While in TRUNCATE command, view of table exist.
+5. In the DROP command, integrity constraints will be removed. While in TRUNCATE command, integrity constraints will not be removed.
+6. In the DROP command, undo space is not used. While in TRUNCATE command, undo space is used but less than DELETE.
+7. The DROP command is quick to perform but gives rise to complications. TRUNCATE command is faster than both DROP and DELETE commands.
