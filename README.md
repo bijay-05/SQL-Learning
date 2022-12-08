@@ -37,3 +37,7 @@ This ensures the accuracy and reliability of the data is maintained.
 5. In the DROP command, integrity constraints will be removed. While in TRUNCATE command, integrity constraints will not be removed.
 6. In the DROP command, undo space is not used. While in TRUNCATE command, undo space is used but less than DELETE.
 7. The DROP command is quick to perform but gives rise to complications. TRUNCATE command is faster than both DROP and DELETE commands.
+
+# TOPS BOOKS FOR SQL
+![image](https://user-images.githubusercontent.com/86017045/206497769-c7fe8ef2-e19f-47ca-80f9-d4df516c738b.png)
+
