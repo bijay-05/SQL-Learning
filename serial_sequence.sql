@@ -11,3 +11,7 @@ CREATE TABLE tablename (
     colname integer NOT NULL DEFAULT nextval('tablename_colname_seq')
 );
 ALTER SEQUENCE tablename_colname_seq OWNED BY tablename.colname;
+
+
+# to set default value to an already existing column
+ALTER TABLE table_name ALTER COLUMN col_name SET DEFAULT nextval('sequence_name');
