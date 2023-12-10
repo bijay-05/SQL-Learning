@@ -15,3 +15,6 @@ ALTER SEQUENCE tablename_colname_seq OWNED BY tablename.colname;
 
 # to set default value to an already existing column
 ALTER TABLE table_name ALTER COLUMN col_name SET DEFAULT nextval('sequence_name');
+
+# change column data type, previously VARCHAR(30)
+ALTER TABLE table_name ALTER COLUMN col_name TYPE VARCHAR(50)
